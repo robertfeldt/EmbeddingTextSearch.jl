@@ -13,10 +13,10 @@ Basically, this takes a json file as input and outputs an index directory with i
 
 The main binary/script is named ``tess``(Text Embedding for Semantic Search).
 
-### tess embed <dirname> mydocs.json <textfield>
+### tess embed _dirname_ _mydocs.json_ _textfield_
 
 Embed the text in ``textfield`` of dicts in file ``mydocs.json`` and save intermediate files in a directory ``dirname``.
 
-### tess search <dirname> newdocs.json [<textfield>]
+### tess search _dirname_ _newdocs.json_ _textfield_
 
 Search for the closest documents to each of the documents in ``newdocs.json``, given an index in the directory ``dirname``.
