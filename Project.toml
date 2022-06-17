@@ -3,6 +3,10 @@ uuid = "c5713cf9-eac4-466d-a3d1-46383b1d235d"
 authors = ["Robert Feldt"]
 version = "0.1.0"
 
+[deps]
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 [compat]
 julia = "1.7"
 
